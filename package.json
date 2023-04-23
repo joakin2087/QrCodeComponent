@@ -1,0 +1,16 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "code qr frontendmentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/styles.css"
+  },
+  "author": "Joaquin",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.59.3"
+  }
+}

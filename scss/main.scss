@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import"variables";
+@import"commons";
+
+
+body{
+    background-color: $lightGrey;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    
+}
+.container{
+    margin-top:30vh;
+    display: flex ;
+    justify-content: $alignAll;
+    flex-wrap: wrap;
+    font-size: 12px;   
+}
+.qrBackground{
+    @include boxSizing;
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    border-radius:$borderrounded;
+    font-size: 10px;
+    .QR{
+        @include boxSizing;
+        border-radius: $borderrounded;
+        width: 20.9vw;
+        display: flex;
+        justify-content: $alignAll;
+        
+        }
+    h1{
+        @include boxSizing;
+        padding: 0;
+        text-align:$alignAll;
+        color: $darkBlue;
+        font-family:$fontMain;
+        font-weight: $Weights1;
+        font-size:$parras1;
+    }
+    .text{
+        @include boxSizing;
+        margin-bottom: 2em;
+        color: $grayDark;
+        text-align:$alignAll;
+        font-family:$fontMain;
+        font-size: $parras2;
+        font-weight: $Weights2;
+    
+    }
+    
+    
+}
+
+
+.footer{
+       font-family: $fontMain;
+       font-size:$parras3;
+       text-align:$alignAll;
+       a{
+        text-decoration: none;
+       }
+
+}
+
+
+
+@import"mediaQuerry";
