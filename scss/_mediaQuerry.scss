@@ -1,5 +1,5 @@
    
-@media screen and (min-width:320px)and (max-width:442px){
+@media screen and (min-width:318px)and (max-width:442px){
 
 
     .container{
@@ -7,28 +7,30 @@
        place-content: $alignAll;
        margin-top: 10vh;
        margin-bottom: 10vh;
-       margin-left: 10wv;
-       margin-right: 10wv;
+       margin-left: 10vw;
+       margin-right: 10vw;
 
       
     
     
         .qrBackground{
         
-            font-size: 10px;
+            font-size: 9px;
+            width: 80vw;
+            padding: 0;
+            margin: 0;
             
             .QR{
-                width: 300px;
+                width: 75vw;
             }
           
          }
         }
         .footer{
-      text-align:$alignAll;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-        }
+        text-align:$alignAll;
+        bottom: 0;
+         width: 100%;
+                }
 } 
 
 @media screen and (min-width:443px)and (max-width:769px){
@@ -47,7 +49,7 @@
         
             
             .QR{
-                width: 60vw;
+                width: 50vw;
             }
           
          }
